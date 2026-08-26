@@ -1,0 +1,11 @@
+docker -v
+docker ps --all
+docker run hello-world
+cls
+docker run busybox echo ''
+docker run busybox ls
+docker run busybox ping google.com
+docker stop
+docker rm
+docker run -p 80:80 nginx
+docker run -d -p 8000:80 nginx
